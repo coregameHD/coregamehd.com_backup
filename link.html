@@ -22,6 +22,7 @@
 
     <link href="assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 	<link href="assets/css/link.css" rel="stylesheet" >
   </head>
 
@@ -32,7 +33,7 @@
       <div>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link fw-bold py-1 px-0" href="/">HOME</a>
-          <a class="nav-link fw-bold py-1 px-0" href="about.html">ABOUT</a>
+          <a class="nav-link fw-bold py-1 px-0" href="about">ABOUT</a>
           <a class="nav-link fw-bold py-1 px-0 active disabled" aria-current="page">LINK</a>
           <a class="nav-link fw-bold py-1 btn btn-dark" href="https://blog.coregamehd.com" target="_blank" role="button">BLOG</a>
         </nav>
@@ -40,32 +41,79 @@
     </header>
 
     <main>
-    <div class="blackbox" id="fadeinanimation2">
-    <div class="blackbox-text text-center">
+    <div class="blackbox text-center" id="fadeinanimation2">
 
         <img src="./assets/img/ran_avatar.png" class="m-3" alt="image" width="160px" height="160px">
         <h3>coregameHD</h3>
         <h5 style="color:white;">Programmer・Blogger・Eroge Lover</h5>
 
-        <hr/>
-        <h3>Facebook Pages</h3>
+      <div class="d-grid gap-2 col-12 col-md-6 mx-auto" style="padding: 20px;">
+      <form>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="https://coregamehd.com/link" disabled>
+          <div class="input-group-btn">
+            <button class="btn btn-outline-dark">
+              <i class="bi bi-clipboard"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+      </div>
 
+        <hr/>
+
+        <h3>Facebook Pages</h3>
         <div class="d-grid gap-2 col-12 col-md-6 mx-auto">
-      <a href="https://facebook.com/kagamivisualnovel" class="btn btn-kagamivisualnovel btn-block btn-lg" role="button" target="_blank">Kagami Visual Novel</a>
-      <a href="https://facebook.com/kagaminihongo" class="btn btn-kagaminihongo btn-block btn-lg" role="button" target="_blank">Kagami Nihongo</a>
+      <a href="https://facebook.com/kagamivisualnovel" class="btn btn-kagamivisualnovel btn-block btn-lg" role="button" target="_blank"><span class="text-center">Kagami Visual Novel</span><span class="d-block text-center">เพจแนะนำข่าวสารเกมวิชวลโนเวล</span></a>
+      <a href="https://facebook.com/kagaminihongo" class="btn btn-kagaminihongo btn-block btn-lg" role="button" target="_blank"><span class="text-center">Kagami Nihongo</span><span class="d-block text-center">เพจสอนภาษาญี่ปุ่นระดับกลาง-สูง (N3-N1)</span></a>
       </div>
 
     <h3 style="padding-top: 40px;">Stay Connected</h3>
-    <div class="d-grid gap-2 col-12 col-md-6 mx-auto">
-      <a href="https://coregamehd.com" class="btn btn-outline-dark btn-block btn-lg" role="button" target="_blank">Website</a>
-      <a href="https://blog.coregamehd.com" class="btn btn-outline-dark btn-block btn-lg" role="button" target="_blank">Blog</a>
-      <a href="https://facebook.com/coregameHD" class="btn btn-outline-dark btn-block btn-lg" role="button" target="_blank">Facebook</a>
-      <a href="https://twitter.com/coregameHD" class="btn btn-outline-dark btn-block btn-lg" role="button" target="_blank">Twitter</a>
-      <a href="https://github.com/coregameHD" class="btn btn-outline-dark btn-block btn-lg" role="button" target="_blank">Github</a>
-      <a href="mailto:coregamehd@outlook.com" class="btn btn-outline-dark btn-block btn-lg" role="button" target="_blank">Email</a>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm d-grid col-6 col-md-4 col-lg-2 mx-auto p-2">
+          <a href="https://blog.coregamehd.com" target="_blank" role="button" class="btn btn-outline-dark btn-block" >
+            <i class="bi bi-pencil-fill d-block mx-auto" style="font-size: 3em;"></i>
+            <h5 class="text-center">Blog</h5>
+          </a>
+        </div>
+        <div class="col-sm d-grid col-6 col-md-4 col-lg-2 mx-auto p-2">
+          <a href="https://facebook.com/coregameHD" target="_blank" role="button" class="btn btn-outline-dark btn-block" >
+            <i class="bi bi-facebook d-block mx-auto" style="font-size: 3em;"></i>
+            <h5 class="text-center">Facebook</h5>
+          </a>
+        </div>
+        <div class="col-sm d-grid col-6 col-md-4 col-lg-2 mx-auto p-2">
+          <a href="https://twitter.com/coregameHD" target="_blank" role="button" class="btn btn-outline-dark btn-block" >
+            <i class="bi bi-twitter d-block mx-auto" style="font-size: 3em;"></i>
+            <h5 class="text-center">Twitter</h5>
+          </a>
+        </div>
+        <div class="col-sm d-grid col-6 col-md-4 col-lg-2 mx-auto p-2">
+          <a href="https://discordapp.com/users/200977642416111617" target="_blank" role="button" class="btn btn-outline-dark btn-block" >
+            <i class="bi bi-discord d-block mx-auto" style="font-size: 3em;"></i>
+            <h5 class="text-center">Discord</h5>
+          </a>
+        </div>
+        <div class="col-sm d-grid col-6 col-md-4 col-lg-2 mx-auto p-2">
+          <a href="https://github.com/coregameHD" target="_blank" role="button" class="btn btn-outline-dark btn-block" >
+            <i class="bi bi-github d-block mx-auto" style="font-size: 3em;"></i>
+            <h5 class="text-center">Github</h5>
+          </a>
+        </div>
+        <div class="col-sm d-grid col-6 col-md-4 col-lg-2 mx-auto p-2">
+          <a href="mailto:coregamehd@outlook.com" target="_blank" role="button" class="btn btn-outline-dark btn-block" >
+            <i class="bi bi-envelope-at-fill d-block mx-auto" style="font-size: 3em;"></i>
+            <h5 class="text-center">Email</h5>
+          </a>
+        </div>
 
-    </div>
+      </div>
+
+
+
+
+
     </div>
     </main>
 
