@@ -24,6 +24,17 @@
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 	<link href="assets/css/link.css" rel="stylesheet" >
+    <script>
+    let text = document.getElementById('myInput').innerHTML;
+  const myFunction = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      console.log('Content copied to clipboard');
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  }
+    </script>
   </head>
 
   <body class="d-flex h-100 text-bg-dark background">
@@ -48,16 +59,10 @@
         <h5 style="color:white;">Programmer・Blogger・Eroge Lover</h5>
 
       <div class="d-grid gap-2 col-12 col-md-6 mx-auto" style="padding: 20px;">
-      <form>
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="https://coregamehd.com/link" disabled>
-          <div class="input-group-btn">
-            <button class="btn btn-outline-dark">
-              <i class="bi bi-clipboard"></i>
-            </button>
-          </div>
-        </div>
-      </form>
+      <div class="input-group mb-3">
+        <input type="text" value="https://coregamehd.com/link" class="form-control" disabled="true">
+        <button class="btn btn-outline-dark" type="button" onclick="myFunction()"><i class="bi bi-clipboard"></i></button>
+      </div>
       </div>
 
         <hr/>
