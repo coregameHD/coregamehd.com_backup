@@ -174,7 +174,7 @@ nav {font-size: 1.3em;}
 
 .blackbox {
     background: rgba(0,0,0,0.8);
-    border-radius: 16px;
+    border-radius: 0.5rem;
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 25px;
