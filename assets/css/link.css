@@ -1,11 +1,11 @@
 .btn-purple {
-    background-color: #4044ac;
-    border: 2px solid #4044ac;
+    background-color: #6818D9;
+    border: 2px solid #6818D9;
     color: white;
 }
 .btn-purple:hover {
+    background-color: rgba(104, 24, 217, 0.3);
     color: white;
-    border: 2px solid #4044ac;
 }
 
 .btn-kagamivisualnovel {
@@ -14,8 +14,8 @@
     color: white;
 }
 .btn-kagamivisualnovel:hover {
+    background-color: rgba(255, 110, 64, 0.3);
     color: white;
-    border: 2px solid #FF6E40;
 }
 
 .btn-kagaminihongo {
@@ -24,6 +24,6 @@
     color: white;
 }
 .btn-kagaminihongo:hover {
+    background-color: rgba(255, 64, 129, 0.3);
     color: white;
-    border: 2px solid #FF4081;
 }
