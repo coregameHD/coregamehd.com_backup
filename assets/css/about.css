@@ -23,11 +23,11 @@
 
 .pad-in-box {
     box-sizing: border-box;
-    padding: 12px;
+    padding: 20px;
 }
 .pad-in-box2 {
     box-sizing: border-box;
-    padding: 30px;
+    padding: 40px;
 }
 @media (min-width: 320px) and (max-width: 1199.98px) {
     .pad-in-box {
@@ -60,4 +60,17 @@ a.kagaminihongo {
 }
 a.kagaminihongo:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 992px){
+    .container {
+        padding-left: 0;
+    }
+    .row {
+        margin-left: calc(-.75 * var(--bs-gutter-x));
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 30%;
+    }
 }
