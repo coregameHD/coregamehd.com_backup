@@ -1,0 +1,63 @@
+.glassbackground2 {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 0.5rem;
+}
+
+.glassbackground3 {
+    background: rgba(104, 24, 217, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 0.5rem;
+}
+@media (min-width: 320px) and (max-width: 1199.98px) {
+    .glassbackground3 {
+        margin-bottom: 30px;
+    }
+}
+
+.pad-in-box {
+    box-sizing: border-box;
+    padding: 12px;
+}
+.pad-in-box2 {
+    box-sizing: border-box;
+    padding: 30px;
+}
+@media (min-width: 320px) and (max-width: 1199.98px) {
+    .pad-in-box {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .pad-in-box2 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+}
+
+a.kagamivisualnovel:link {text-decoration: none; color: #FF6E40;}
+a.kagamivisualnovel:visited {text-decoration: none; color: #FF6E40;}
+a.kagamivisualnovel:active {text-decoration: none; color: #FF6E40;}
+a.kagamivisualnovel {
+    color: #FF6E40;
+    text-decoration: none;
+}
+a.kagamivisualnovel:hover {
+    text-decoration: underline;
+}
+
+a.kagaminihongo:link  {text-decoration: none; color: #FF4081;}
+a.kagaminihongo:visited {text-decoration: none; color: #FF4081;}
+a.kagaminihongo:active {text-decoration: none; color: #FF4081;}
+a.kagaminihongo {
+    color: #FF4081;
+    text-decoration: none;
+}
+a.kagaminihongo:hover {
+    text-decoration: underline;
+}
